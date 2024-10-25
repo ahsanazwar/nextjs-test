@@ -7,11 +7,20 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["inter"],
+      playfair: ["playfair-display"],
+    },
+    colors: {
+      'white': '#ffffff',
+      'black': '#000000',
+      'golden': '#AD8749',
+    },
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      backgroundImage: {
+        'goldenGradient': 'linear-gradient(180deg, #AD8749, #DCBB75)',
+        'greenTheme': 'linear-gradient(to right, #283606 , #0F1500)'
+      }
     },
   },
   plugins: [],
