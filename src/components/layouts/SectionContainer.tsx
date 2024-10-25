@@ -4,7 +4,7 @@ interface Props {
  
 const SectionContainer = ({children}: Props) => {
     return ( 
-            <div className="flex items-center w-full flex-col">
+            <div className="flex items-center w-full flex-col py-12">
                 <div className="container">
                     {
                         children

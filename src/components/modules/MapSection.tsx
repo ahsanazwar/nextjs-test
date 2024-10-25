@@ -1,3 +1,4 @@
+
 import SectionContainer from "@/components/layouts/SectionContainer";
 import SubHeading from "@/components/SubHeading";
 import Heading from "@/components/Heading";
@@ -19,7 +20,7 @@ const MapSection = () => {
             <div className="px-36">
                 <SubHeading>EXPERIENCE THE GROVES</SubHeading>
                 <Heading>Find your place</Heading>
-                <p className="mb-12">Our interactive map will show you the way to the shops and restaurants that you want to see.</p>
+                <p className="mb-20">Our interactive map will show you the way to the shops and restaurants that you want to see.</p>
                 <ButtonWithArrow url="/">Open the Map</ButtonWithArrow>
             </div>
           </div>
