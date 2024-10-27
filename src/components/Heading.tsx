@@ -1,13 +1,12 @@
 interface Props {
-    children?: React.ReactNode,
-    textPosition?: string
+    title?: string,
 }
  
-const Heading = ({children,textPosition}: Props) => {
+const Heading = ({title}: Props) => {
     return ( 
-        <h2 className={`font-playfair text-white text-[50px] mb-6 text-${textPosition? textPosition: 'left'}`}>
+        <h2 className="font-playfair text-white text-4xl sm:text-5xl mb-6">
             {
-                children
+                title
             }
         </h2>  
     );

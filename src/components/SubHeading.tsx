@@ -1,14 +1,14 @@
 interface Props {
-    children?: React.ReactNode,
+    title?: string,
 }
  
-const SubHeading = ({children}: Props) => {
+const SubHeading = ({title}: Props) => {
     return ( 
-            <h3 className="text-white text-xs uppercase mb-8">
+            <h4 className="text-white text-xs uppercase mb-8 tracking-[2.6px]">
                 {
-                    children
+                    title
                 }
-            </h3>  
+            </h4>  
     );
 }
  

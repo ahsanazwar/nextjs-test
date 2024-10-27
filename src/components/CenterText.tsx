@@ -2,15 +2,15 @@ import Heading from "@/components/Heading";
 
 
 interface Props {
-    heading?: string
+    heading: string
     subHeading?: string
 }
 
 
 const CenterText = ({heading,subHeading}: Props) => {
     return ( 
-        <div className="px-[30rem]">
-            <Heading textPosition="center">{heading}</Heading>
+        <div className="sm:px-[20rem] text-center">
+            <Heading title={heading}/>
             <p className="text-center mb-16">{subHeading}</p>
         </div>
     );

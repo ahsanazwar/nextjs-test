@@ -1,3 +1,6 @@
+import Footer from "@/components/layouts/Footer";
+import Header from "@/components/layouts/Header";
+
 interface Props {
     children?: React.ReactNode
 }
@@ -5,8 +8,10 @@ interface Props {
 
 function Layout({ children }: Props) {
     return ( 
-        <main className="bg-greenTheme">
+        <main className="bg-greenTheme overflow-hidden">
+            <Header/>
             {children}
+            <Footer/>
         </main>
      );
 }
